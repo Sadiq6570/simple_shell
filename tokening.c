@@ -1,10 +1,10 @@
-#include "shell.h"
+include "shell.h"
 
 /**
  * tokening - A function that split and create a full string command.
  * @s: The delimiter for strtok.
  * @buffer: The pointer to input string.
- * Return: A string with full command.
+ * Return: A string with full commands .
  */
 char **tokening(char *buffer, const char *s)
 {
